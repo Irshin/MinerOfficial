@@ -1,0 +1,235 @@
+{
+  "coins": {
+    "Energi": {
+      "id": 282, "tag": "NRG", "algorithm": "Energi", "block_time": "62.0", "block_reward": 2.28, "block_reward24": 2.27999999999998, "last_block": 418035, "difficulty": 9713071192684.71, "difficulty24": 8418578228119.19, "nethash": 156662438591, "exchange_rate": 0.00016201, "exchange_rate24": 0.000151428089725036, "exchange_rate_vol": 0.22583332, "exchange_rate_curr": "BTC", "market_cap": "$7,584,155.24", "estimated_rewards": "1.61448", "estimated_rewards24": "1.86257", "btc_revenue": "0.00026156", "btc_revenue24": "0.00030175", "profitability": 97, "profitability24": 113, "lagging": false, "timestamp": 1550052156
+    }
+  ,
+    "EthereumClassic": {
+      "id": 162, "tag": "ETC", "algorithm": "Ethash", "block_time": "14.4322", "block_reward": 3.88, "block_reward24": 3.88000000000007, "last_block": 7482661, "difficulty": 116834035173445.0, "difficulty24": 122331493562562.0, "nethash": 8095372512399, "exchange_rate": 0.0011291, "exchange_rate24": 0.0011268497810219, "exchange_rate_vol": 222.375409851, "exchange_rate_curr": "BTC", "market_cap": "$449,670,310.77", "estimated_rewards": "0.25393", "estimated_rewards24": "0.24252", "btc_revenue": "0.00028671", "btc_revenue24": "0.00027383", "profitability": 106, "profitability24": 102, "lagging": false, "timestamp": 1550052210
+    }
+  ,
+    "Nicehash-Ethash": {
+      "id": 15, "tag": "NICEHASH", "algorithm": "Ethash", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 6690263632990, "exchange_rate": 3.1456, "exchange_rate24": 3.0449, "exchange_rate_vol": 19.928884198913753, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00028", "estimated_rewards24": "0.00027", "btc_revenue": "0.00027839", "btc_revenue24": "0.00026947", "profitability": 103, "profitability24": 101, "lagging": false, "timestamp": 1550052202
+    }
+  ,
+    "Callisto": {
+      "id": 283, "tag": "CLO", "algorithm": "Ethash", "block_time": "12.6494", "block_reward": 417.9, "block_reward24": 417.899999999998, "last_block": 2033802, "difficulty": 11958552633532.0, "difficulty24": 11916384184775.0, "nethash": 945384969526, "exchange_rate": 1.00106e-06, "exchange_rate24": 9.58913739002932e-07, "exchange_rate_vol": 6.12443396, "exchange_rate_curr": "BTC", "market_cap": "$4,406,328.48", "estimated_rewards": "267.18379", "estimated_rewards24": "268.12919", "btc_revenue": "0.00026747", "btc_revenue24": "0.00026841", "profitability": 99, "profitability24": 100, "lagging": false, "timestamp": 1550052181
+    }
+  ,
+    "Ethereum": {
+      "id": 151, "tag": "ETH", "algorithm": "Ethash", "block_time": "20.0", "block_reward": 2.91, "block_reward24": 2.91000000000003, "last_block": 7214731, "difficulty": 2.79011320775866e+15, "difficulty24": 2.82854872171407e+15, "nethash": 139505660387933, "exchange_rate": 0.033973, "exchange_rate24": 0.033642615942029, "exchange_rate_vol": 7052.5854776, "exchange_rate_curr": "BTC", "market_cap": "$13,104,764,774.44", "estimated_rewards": "0.00797", "estimated_rewards24": "0.00787", "btc_revenue": "0.00027093", "btc_revenue24": "0.00026725", "profitability": 100, "profitability24": 100, "lagging": false, "timestamp": 1550052195
+    }
+  ,
+    "BitTube": {
+      "id": 256, "tag": "TUBE", "algorithm": "CryptoNightSaber", "block_time": "122.0", "block_reward": 164.94854531, "block_reward24": 164.978201183372, "last_block": 272105, "difficulty": 1176321857.0, "difficulty24": 1095664268.31651, "nethash": 9641982, "exchange_rate": 6.37e-06, "exchange_rate24": 6.1260926193922e-06, "exchange_rate_vol": 1.88440664, "exchange_rate_curr": "BTC", "market_cap": "$3,024,096.79", "estimated_rewards": "34.8818", "estimated_rewards24": "37.45554", "btc_revenue": "0.0002222", "btc_revenue24": "0.00023859", "profitability": 82, "profitability24": 89, "lagging": false, "timestamp": 1550052210
+    }
+  ,
+    "Dubaicoin": {
+      "id": 271, "tag": "DBIX", "algorithm": "Ethash", "block_time": "91.0", "block_reward": 6.0, "block_reward24": 6.0, "last_block": 589828, "difficulty": 14606414149246.0, "difficulty24": 18941192962133.0, "nethash": 160510045596, "exchange_rate": 9.459e-05, "exchange_rate24": 0.000101185982404692, "exchange_rate_vol": 1.167464451, "exchange_rate_curr": "BTC", "market_cap": "$1,483,690.40", "estimated_rewards": "3.13925", "estimated_rewards24": "2.42112", "btc_revenue": "0.00029694", "btc_revenue24": "0.00022901", "profitability": 110, "profitability24": 86, "lagging": false, "timestamp": 1550052150
+    }
+  ,
+    "Nicehash-Lyra2REv3": {
+      "id": 32, "tag": "NICEHASH", "algorithm": "Lyra2REv3", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 161526569930, "exchange_rate": 0.002, "exchange_rate24": 0.0019, "exchange_rate_vol": 0.33039014726099997, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00023", "estimated_rewards24": "0.00022", "btc_revenue": "0.000234", "btc_revenue24": "0.0002223", "profitability": 86, "profitability24": 83, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "Vertcoin": {
+      "id": 5, "tag": "VTC", "algorithm": "Lyra2REv3", "block_time": "155.0", "block_reward": 25.0, "block_reward24": 25.0, "last_block": 1086730, "difficulty": 19400.0, "difficulty24": 21157.2079510703, "nethash": 537563648660, "exchange_rate": 7.96e-05, "exchange_rate24": 8.11668596237336e-05, "exchange_rate_vol": 24.01226724, "exchange_rate_curr": "BTC", "market_cap": "$14,106,939.90", "estimated_rewards": "3.03238", "estimated_rewards24": "2.78058", "btc_revenue": "0.00024138", "btc_revenue24": "0.00022133", "profitability": 89, "profitability24": 83, "lagging": false, "timestamp": 1550052151
+    }
+  ,
+    "Metaverse": {
+      "id": 209, "tag": "ETP", "algorithm": "Ethash", "block_time": "34.0", "block_reward": 2.5721249999999998, "block_reward24": 2.57212499999998, "last_block": 1885503, "difficulty": 13836498451753.0, "difficulty24": 13980885655897.6, "nethash": 406955836816, "exchange_rate": 0.00015661, "exchange_rate24": 0.000159272550724638, "exchange_rate_vol": 9.70392845369739, "exchange_rate_curr": "BTC", "market_cap": "$31,685,399.99", "estimated_rewards": "1.42111", "estimated_rewards24": "1.40644", "btc_revenue": "0.00022256", "btc_revenue24": "0.00022026", "profitability": 82, "profitability24": 82, "lagging": false, "timestamp": 1550052211
+    }
+  ,
+    "HavenProtocol": {
+      "id": 279, "tag": "XHV", "algorithm": "CryptoNightHaven", "block_time": "118.0", "block_reward": 20.170595329448, "block_reward24": 20.1838852088859, "last_block": 264809, "difficulty": 1917783470.0, "difficulty24": 1665227959.35147, "nethash": 16252402, "exchange_rate": 7.145e-05, "exchange_rate24": 6.87018234442836e-05, "exchange_rate_vol": 16.77714979, "exchange_rate_curr": "BTC", "market_cap": "$1,922,831.29", "estimated_rewards": "2.61667", "estimated_rewards24": "3.01543", "btc_revenue": "0.00018696", "btc_revenue24": "0.00021545", "profitability": 69, "profitability24": 81, "lagging": false, "timestamp": 1550052177
+    }
+  ,
+    "Nicehash-CNHeavy": {
+      "id": 26, "tag": "NICEHASH", "algorithm": "CryptoNightHeavy", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 4536860, "exchange_rate": 0.0701, "exchange_rate24": 0.0713, "exchange_rate_vol": 0.339594057, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.0002", "estimated_rewards24": "0.00021", "btc_revenue": "0.00020189", "btc_revenue24": "0.00020534", "profitability": 75, "profitability24": 77, "lagging": false, "timestamp": 1550052202
+    }
+  ,
+    "Masari": {
+      "id": 273, "tag": "MSR", "algorithm": "CryptoNightFastV2", "block_time": "60.0", "block_reward": 8.602716054083, "block_reward24": 8.60043845050643, "last_block": 388353, "difficulty": 521707658.0, "difficulty24": 513456195.503472, "nethash": 8695127, "exchange_rate": 2.865e-05, "exchange_rate24": 2.87173806078151e-05, "exchange_rate_vol": 0.62790823, "exchange_rate_curr": "BTC", "market_cap": "$1,015,844.42", "estimated_rewards": "7.04823", "estimated_rewards24": "7.15954", "btc_revenue": "0.00020193", "btc_revenue24": "0.00020512", "profitability": 75, "profitability24": 77, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "Loki": {
+      "id": 249, "tag": "LOKI", "algorithm": "CryptoNightHeavy", "block_time": "120.0", "block_reward": 17.578446716, "block_reward24": 17.5971382813096, "last_block": 205815, "difficulty": 909052142.0, "difficulty24": 869503020.127764, "nethash": 7575434, "exchange_rate": 4.012e-05, "exchange_rate24": 4.00907525325613e-05, "exchange_rate_vol": 0.73768931, "exchange_rate_curr": "BTC", "market_cap": "$4,690,898.33", "estimated_rewards": "4.80986", "estimated_rewards24": "5.0339", "btc_revenue": "0.00019297", "btc_revenue24": "0.00020196", "profitability": 71, "profitability24": 76, "lagging": false, "timestamp": 1550052184
+    }
+  ,
+    "Ryo": {
+      "id": 260, "tag": "RYO", "algorithm": "CryptoNightHeavy", "block_time": "241.0", "block_reward": 48.59, "block_reward24": 48.5900000000001, "last_block": 228263, "difficulty": 872928518.0, "difficulty24": 922644289.045283, "nethash": 3622110, "exchange_rate": 1.455e-05, "exchange_rate24": 1.59429522431259e-05, "exchange_rate_vol": 0.46257812, "exchange_rate_curr": "BTC", "market_cap": "$511,755.77", "estimated_rewards": "13.83978", "estimated_rewards24": "13.0946", "btc_revenue": "0.00020137", "btc_revenue24": "0.00019053", "profitability": 74, "profitability24": 71, "lagging": false, "timestamp": 1550051938
+    }
+  ,
+    "Ubiq": {
+      "id": 173, "tag": "UBQ", "algorithm": "Ubqhash", "block_time": "88.0", "block_reward": 6, "block_reward24": 6.0, "last_block": 742697, "difficulty": 11017200147314.0, "difficulty24": 11593315076562.8, "nethash": 125195456219, "exchange_rate": 4.61e-05, "exchange_rate24": 4.67755137481908e-05, "exchange_rate_vol": 1.38520698, "exchange_rate_curr": "BTC", "market_cap": "$7,227,173.49", "estimated_rewards": "4.16131", "estimated_rewards24": "3.95466", "btc_revenue": "0.00019184", "btc_revenue24": "0.00018231", "profitability": 71, "profitability24": 68, "lagging": false, "timestamp": 1550052206
+    }
+  ,
+    "Bitcoin Interest": {
+      "id": 245, "tag": "BCI", "algorithm": "ProgPow", "block_time": "617.0", "block_reward": 10.76, "block_reward24": 10.76, "last_block": 24731, "difficulty": 75721400.624171, "difficulty24": 103851620.108062, "nethash": 8042913632, "exchange_rate": 5.6e-05, "exchange_rate24": 5.63460410557189e-05, "exchange_rate_vol": 0.1026769, "exchange_rate_curr": "BTC", "market_cap": "$3,776,087.39", "estimated_rewards": "4.42688", "estimated_rewards24": "3.23035", "btc_revenue": "0.00024791", "btc_revenue24": "0.0001809", "profitability": 92, "profitability24": 68, "lagging": false, "timestamp": 1550052158
+    }
+  ,
+    "Grin": {
+      "id": 293, "tag": "GRIN", "algorithm": "Cuckaroo29", "block_time": "69.7674", "block_reward": 60.0, "block_reward24": 60.0, "last_block": 41169, "difficulty": 162965149.422517, "difficulty24": 157457212.210488, "nethash": 2335835, "exchange_rate": 0.00139002, "exchange_rate24": 0.00139584947901592, "exchange_rate_vol": 1.69588632, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.12454", "estimated_rewards24": "0.12889", "btc_revenue": "0.00017311", "btc_revenue24": "0.00017917", "profitability": 64, "profitability24": 67, "lagging": false, "timestamp": 1550052159
+    }
+  ,
+    "Bitcore": {
+      "id": 202, "tag": "BTX", "algorithm": "TimeTravel10", "block_time": "166.0", "block_reward": 3.125, "block_reward24": 3.125, "last_block": 340050, "difficulty": 1145.8342197411, "difficulty24": 1068.57274577715, "nethash": 29646509038, "exchange_rate": 7.4068e-05, "exchange_rate24": 6.73499340175956e-05, "exchange_rate_vol": 0.8742930805, "exchange_rate_curr": "BTC", "market_cap": "$4,753,737.47", "estimated_rewards": "2.21893", "estimated_rewards24": "2.37914", "btc_revenue": "0.00016435", "btc_revenue24": "0.00017622", "profitability": 61, "profitability24": 66, "lagging": false, "timestamp": 1550052017
+    }
+  ,
+    "Electronero": {
+      "id": 284, "tag": "ETNX", "algorithm": "CryptoNightFast", "block_time": "62.0", "block_reward": 2.85, "block_reward24": 2.85914457010307, "last_block": 631026, "difficulty": 184262420.0, "difficulty24": 201143273.178694, "nethash": 2971974, "exchange_rate": 2.779e-05, "exchange_rate24": 2.74124746743849e-05, "exchange_rate_vol": 7.59091889, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "6.60396", "estimated_rewards24": "6.06998", "btc_revenue": "0.00018352", "btc_revenue24": "0.00016868", "profitability": 68, "profitability24": 63, "lagging": false, "timestamp": 1550052178
+    }
+  ,
+    "Nicehash-Cuckaroo29 ": {
+      "id": 31, "tag": "NICEHASH", "algorithm": "Cuckaroo29", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 144610, "exchange_rate": 0.0382, "exchange_rate24": 0.0379, "exchange_rate_vol": 5.030467, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00017", "estimated_rewards24": "0.00016", "btc_revenue": "0.00016617", "btc_revenue24": "0.00016487", "profitability": 61, "profitability24": 62, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "SUQA": {
+      "id": 277, "tag": "SUQA", "algorithm": "X22i", "block_time": "125.0", "block_reward": 2500, "block_reward24": 2500.0, "last_block": 96123, "difficulty": 2136.59165292, "difficulty24": 1858.66244237542, "nethash": 73412730193, "exchange_rate": 3.9e-07, "exchange_rate24": 3.94399421128795e-07, "exchange_rate_vol": 1.47701827, "exchange_rate_curr": "BTC", "market_cap": "$764,106.46", "estimated_rewards": "353.00015", "estimated_rewards24": "405.77252", "btc_revenue": "0.00013767", "btc_revenue24": "0.00015825", "profitability": 51, "profitability24": 59, "lagging": false, "timestamp": 1550052023
+    }
+  ,
+    "Zcoin": {
+      "id": 175, "tag": "XZC", "algorithm": "MTP", "block_time": "318.0", "block_reward": 14.0, "block_reward24": 14.0, "last_block": 136071, "difficulty": 4537.4704, "difficulty24": 4597.35267511849, "nethash": 61283921303, "exchange_rate": 0.0014, "exchange_rate24": 0.00136732608695653, "exchange_rate_vol": 38.92652571, "exchange_rate_curr": "BTC", "market_cap": "$34,940,081.20", "estimated_rewards": "0.11172", "estimated_rewards24": "0.11026", "btc_revenue": "0.00015641", "btc_revenue24": "0.00015437", "profitability": 58, "profitability24": 58, "lagging": false, "timestamp": 1550052055
+    }
+  ,
+    "Musicoin": {
+      "id": 178, "tag": "MUSIC", "algorithm": "Ethash", "block_time": "13.1288", "block_reward": 246.2, "block_reward24": 246.200000000001, "last_block": 4335045, "difficulty": 2465826414569.0, "difficulty24": 2515889635047.39, "nethash": 187818110914, "exchange_rate": 2.0e-07, "exchange_rate24": 2.01273516642549e-07, "exchange_rate_vol": 1.87380402, "exchange_rate_curr": "BTC", "market_cap": "$1,001,607.38", "estimated_rewards": "763.09388", "estimated_rewards24": "747.91622", "btc_revenue": "0.00015262", "btc_revenue24": "0.00014958", "profitability": 56, "profitability24": 56, "lagging": false, "timestamp": 1550052190
+    }
+  ,
+    "Ravencoin": {
+      "id": 234, "tag": "RVN", "algorithm": "X16R", "block_time": "60.0", "block_reward": 5000.0, "block_reward24": 5000.0, "last_block": 578186, "difficulty": 46587.5014643671, "difficulty24": 47239.44657805, "nethash": 3334863253196, "exchange_rate": 2.91e-06, "exchange_rate24": 2.9338695652174e-06, "exchange_rate_vol": 281.80159009, "exchange_rate_curr": "BTC", "market_cap": "$30,950,200.41", "estimated_rewards": "51.81584", "estimated_rewards24": "51.10075", "btc_revenue": "0.00015078", "btc_revenue24": "0.0001487", "profitability": 56, "profitability24": 56, "lagging": false, "timestamp": 1550052035
+    }
+  ,
+    "ZelCash": {
+      "id": 287, "tag": "ZEL", "algorithm": "Zhash", "block_time": "118.0", "block_reward": 150.0, "block_reward24": 150.0, "last_block": 272354, "difficulty": 6537.66879123898, "difficulty24": 6253.83252703431, "nethash": 453869, "exchange_rate": 9.15e-06, "exchange_rate24": 9.12946454413894e-06, "exchange_rate_vol": 0.21892631, "exchange_rate_curr": "BTC", "market_cap": "$1,798,830.17", "estimated_rewards": "15.24307", "estimated_rewards24": "15.93479", "btc_revenue": "0.00013947", "btc_revenue24": "0.0001458", "profitability": 51, "profitability24": 55, "lagging": false, "timestamp": 1550052172
+    }
+  ,
+    "Vivo": {
+      "id": 200, "tag": "VIVO", "algorithm": "NeoScrypt", "block_time": "121.0", "block_reward": 4.5, "block_reward24": 4.5, "last_block": 359140, "difficulty": 11.545975140686, "difficulty24": 9.95778515304621, "nethash": 409831286, "exchange_rate": 6.53e-06, "exchange_rate24": 6.56240231548477e-06, "exchange_rate_vol": 0.03633087, "exchange_rate_curr": "BTC", "market_cap": "$86,368.87", "estimated_rewards": "19.17219", "estimated_rewards24": "22.20888", "btc_revenue": "0.00012519", "btc_revenue24": "0.00014502", "profitability": 46, "profitability24": 54, "lagging": false, "timestamp": 1550051065
+    }
+  ,
+    "BitcoinGold": {
+      "id": 214, "tag": "BTG", "algorithm": "Zhash", "block_time": "575.0", "block_reward": 12.5, "block_reward24": 12.5, "last_block": 568437, "difficulty": 173037.311308972, "difficulty24": 164961.028595733, "nethash": 2465255, "exchange_rate": 0.002823, "exchange_rate24": 0.00279924677419355, "exchange_rate_vol": 174.0099130593, "exchange_rate_curr": "BTC", "market_cap": "$180,872,571.50", "estimated_rewards": "0.048", "estimated_rewards24": "0.05035", "btc_revenue": "0.0001355", "btc_revenue24": "0.00014213", "profitability": 50, "profitability24": 53, "lagging": false, "timestamp": 1550052050
+    }
+  ,
+    "Nicehash-X16R": {
+      "id": 28, "tag": "NICEHASH", "algorithm": "X16R", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 771346814440, "exchange_rate": 0.0059, "exchange_rate24": 0.0059, "exchange_rate_vol": 5.523554753074, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00014", "estimated_rewards24": "0.00014", "btc_revenue": "0.0001416", "btc_revenue24": "0.0001416", "profitability": 52, "profitability24": 53, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "Expanse": {
+      "id": 154, "tag": "EXP", "algorithm": "Ethash", "block_time": "43.0", "block_reward": 4.0, "block_reward24": 4.0, "last_block": 1703717, "difficulty": 5240676874625.0, "difficulty24": 5399504347328.08, "nethash": 121876206386, "exchange_rate": 2.402e-05, "exchange_rate24": 2.42413458755427e-05, "exchange_rate_vol": 0.84954812, "exchange_rate_curr": "BTC", "market_cap": "$927,538.94", "estimated_rewards": "5.83196", "estimated_rewards24": "5.66053", "btc_revenue": "0.00014008", "btc_revenue24": "0.00013597", "profitability": 52, "profitability24": 51, "lagging": false, "timestamp": 1550051887
+    }
+  ,
+    "Aion": {
+      "id": 272, "tag": "AION", "algorithm": "Equihash (210,9)", "block_time": "10.4938", "block_reward": 1.498, "block_reward24": 1.49800000000001, "last_block": 2424248, "difficulty": 9092455.0, "difficulty24": 9134403.39115044, "nethash": 866459, "exchange_rate": 3.35e-05, "exchange_rate24": 3.29686956521739e-05, "exchange_rate_vol": 106.34617465, "exchange_rate_curr": "BTC", "market_cap": "$34,882,732.93", "estimated_rewards": "4.05552", "estimated_rewards24": "4.0369", "btc_revenue": "0.00013586", "btc_revenue24": "0.00013524", "profitability": 50, "profitability24": 51, "lagging": false, "timestamp": 1550052185
+    }
+  ,
+    "Nicehash-Zhash": {
+      "id": 30, "tag": "NICEHASH", "algorithm": "Zhash", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 399360, "exchange_rate": 2.1092, "exchange_rate24": 2.1273, "exchange_rate_vol": 0.996895326, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00013", "estimated_rewards24": "0.00013", "btc_revenue": "0.00013288", "btc_revenue24": "0.00013402", "profitability": 49, "profitability24": 50, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "HelpTheHomeless": {
+      "id": 258, "tag": "HTH", "algorithm": "X16R", "block_time": "63.0", "block_reward": 1406.25, "block_reward24": 1406.25, "last_block": 311663, "difficulty": 46.6547644870105, "difficulty24": 51.682956560067, "nethash": 3180645836, "exchange_rate": 1.0e-08, "exchange_rate24": 9.99999999999992e-09, "exchange_rate_vol": 0.0188029, "exchange_rate_curr": "BTC", "market_cap": "$28,446.70", "estimated_rewards": "14443.31656", "estimated_rewards24": "13047.64491", "btc_revenue": "0.00014443", "btc_revenue24": "0.00013048", "profitability": 53, "profitability24": 49, "lagging": false, "timestamp": 1550052166
+    }
+  ,
+    "Hilux": {
+      "id": 295, "tag": "HLX", "algorithm": "X16R", "block_time": "211.0", "block_reward": 8.0, "block_reward24": 8.0, "last_block": 98682, "difficulty": 15.8299341872479, "difficulty24": 15.3341881858032, "nethash": 322222984, "exchange_rate": 5.5e-07, "exchange_rate24": 5.48596237337192e-07, "exchange_rate_vol": 0.00068006, "exchange_rate_curr": "BTC", "market_cap": "$6,110.55", "estimated_rewards": "227.07882", "estimated_rewards24": "233.89598", "btc_revenue": "0.00012489", "btc_revenue24": "0.00012864", "profitability": 46, "profitability24": 48, "lagging": false, "timestamp": 1550052018
+    }
+  ,
+    "Feathercoin": {
+      "id": 8, "tag": "FTC", "algorithm": "NeoScrypt", "block_time": "63.0", "block_reward": 40.0, "block_reward24": 40.0, "last_block": 2533370, "difficulty": 78.643966099152, "difficulty24": 56.606773170169, "nethash": 5361480355, "exchange_rate": 3.67e-06, "exchange_rate24": 3.73869753979741e-06, "exchange_rate_vol": 1.50996129, "exchange_rate_curr": "BTC", "market_cap": "$3,068,192.73", "estimated_rewards": "25.15848", "estimated_rewards24": "34.94651", "btc_revenue": "0.00009233", "btc_revenue24": "0.00012825", "profitability": 34, "profitability24": 48, "lagging": false, "timestamp": 1550052211
+    }
+  ,
+    "Nicehash-CNV8": {
+      "id": 29, "tag": "NICEHASH", "algorithm": "CryptoNightV8", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 13105320, "exchange_rate": 0.0489, "exchange_rate24": 0.049, "exchange_rate_vol": 0.6435807, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.00012", "estimated_rewards24": "0.00012", "btc_revenue": "0.00012176", "btc_revenue24": "0.00012201", "profitability": 45, "profitability24": 46, "lagging": false, "timestamp": 1550052202
+    }
+  ,
+    "Innova": {
+      "id": 229, "tag": "INN", "algorithm": "NeoScrypt", "block_time": "120.0", "block_reward": 2.64, "block_reward24": 2.63999999999999, "last_block": 320065, "difficulty": 6.37917411608855, "difficulty24": 4.94008982425043, "nethash": 228319535, "exchange_rate": 4.65e-06, "exchange_rate24": 4.65599131693205e-06, "exchange_rate_vol": 0.02149352, "exchange_rate_curr": "BTC", "market_cap": "$86,394.34", "estimated_rewards": "20.26162", "estimated_rewards24": "26.08299", "btc_revenue": "0.00009422", "btc_revenue24": "0.00012129", "profitability": 35, "profitability24": 45, "lagging": false, "timestamp": 1550052157
+    }
+  ,
+    "Gravium": {
+      "id": 262, "tag": "GRV", "algorithm": "X16R", "block_time": "63.0", "block_reward": 3.1325000000000003, "block_reward24": 3.13249999999999, "last_block": 363615, "difficulty": 11.7535510492891, "difficulty24": 15.5324385420999, "nethash": 801287577, "exchange_rate": 1.26e-06, "exchange_rate24": 1.2481041968162e-06, "exchange_rate_vol": 0.00414769, "exchange_rate_curr": "BTC", "market_cap": "$21,801.08", "estimated_rewards": "124.931", "estimated_rewards24": "95.21015", "btc_revenue": "0.00015741", "btc_revenue24": "0.00011996", "profitability": 58, "profitability24": 45, "lagging": false, "timestamp": 1550052173
+    }
+  ,
+    "SnowGem": {
+      "id": 288, "tag": "XSG", "algorithm": "Zhash", "block_time": "60.0", "block_reward": 9.5, "block_reward24": 9.5, "last_block": 595607, "difficulty": 675.369200732645, "difficulty24": 761.728895482164, "nethash": 92210, "exchange_rate": 1.394e-05, "exchange_rate24": 1.39401736613604e-05, "exchange_rate_vol": 0.01610749, "exchange_rate_curr": "BTC", "market_cap": "$582,454.82", "estimated_rewards": "9.34007", "estimated_rewards24": "8.2818", "btc_revenue": "0.0001302", "btc_revenue24": "0.00011545", "profitability": 48, "profitability24": 43, "lagging": false, "timestamp": 1550052161
+    }
+  ,
+    "BitcoinZ": {
+      "id": 207, "tag": "BTCZ", "algorithm": "Zhash", "block_time": "149.0", "block_reward": 12500.0, "block_reward24": 12500.0, "last_block": 298113, "difficulty": 2471.95874465891, "difficulty24": 2978.41713824674, "nethash": 135907, "exchange_rate": 4.0e-08, "exchange_rate24": 4.21732745961818e-08, "exchange_rate_vol": 0.23799222, "exchange_rate_curr": "BTC", "market_cap": "$548,495.13", "estimated_rewards": "3358.39576", "estimated_rewards24": "2787.54436", "btc_revenue": "0.00013434", "btc_revenue24": "0.0001115", "profitability": 50, "profitability24": 42, "lagging": false, "timestamp": 1550052165
+    }
+  ,
+    "Nicehash-NeoScrypt": {
+      "id": 3, "tag": "NICEHASH", "algorithm": "NeoScrypt", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 5185277940, "exchange_rate": 0.0413, "exchange_rate24": 0.0446, "exchange_rate_vol": 0.213675331266, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "0.0001", "estimated_rewards24": "0.00011", "btc_revenue": "0.0001016", "btc_revenue24": "0.00010972", "profitability": 37, "profitability24": 41, "lagging": false, "timestamp": 1550052202
+    }
+  ,
+    "BitcoinDiamond": {
+      "id": 278, "tag": "BCD", "algorithm": "BCD", "block_time": "672.0", "block_reward": 125.0, "block_reward24": 125.0, "last_block": 554964, "difficulty": 126970.429846863, "difficulty24": 147118.002587704, "nethash": 811508696058, "exchange_rate": 0.000199, "exchange_rate24": 0.000198746376811596, "exchange_rate_vol": 92.04854559, "exchange_rate_curr": "BTC", "market_cap": "$112,577,816.37", "estimated_rewards": "0.60005", "estimated_rewards24": "0.51788", "btc_revenue": "0.00011941", "btc_revenue24": "0.00010306", "profitability": 44, "profitability24": 39, "lagging": false, "timestamp": 1550051773
+    }
+  ,
+    "Traid": {
+      "id": 274, "tag": "TRAID", "algorithm": "NeoScrypt", "block_time": "120.0", "block_reward": 60.0, "block_reward24": 60.0, "last_block": 157486, "difficulty": 10.4732285, "difficulty24": 7.15574307649333, "nethash": 374851449, "exchange_rate": 2.5e-07, "exchange_rate24": 2.39464544138931e-07, "exchange_rate_vol": 0.25816093, "exchange_rate_curr": "BTC", "market_cap": "$10,716.11", "estimated_rewards": "281.65591", "estimated_rewards24": "410.99256", "btc_revenue": "0.00007041", "btc_revenue24": "0.00010275", "profitability": 26, "profitability24": 38, "lagging": false, "timestamp": 1550052070
+    }
+  ,
+    "Graft": {
+      "id": 261, "tag": "GRFT", "algorithm": "CryptoNightV8", "block_time": "118.0", "block_reward": 624.4846195638, "block_reward24": 624.772090780275, "last_block": 283136, "difficulty": 2147312831.0, "difficulty24": 1855141890.87383, "nethash": 18197566, "exchange_rate": 1.39e-06, "exchange_rate24": 1.40257597684515e-06, "exchange_rate_vol": 3.57998125, "exchange_rate_curr": "BTC", "market_cap": "$2,545,532.74", "estimated_rewards": "62.5576", "estimated_rewards24": "72.44173", "btc_revenue": "0.00008696", "btc_revenue24": "0.00010069", "profitability": 32, "profitability24": 38, "lagging": false, "timestamp": 1550052201
+    }
+  ,
+    "Folm": {
+      "id": 241, "tag": "FLM", "algorithm": "PHI1612", "block_time": "130.0", "block_reward": 30.0, "block_reward24": 30.0, "last_block": 244867, "difficulty": 61.309, "difficulty24": 97.9635700854702, "nethash": 2025539615, "exchange_rate": 3.6e-07, "exchange_rate24": 3.68422575976843e-07, "exchange_rate_vol": 0.00405775, "exchange_rate_curr": "BTC", "market_cap": "$12,798.86", "estimated_rewards": "433.33185", "estimated_rewards24": "273.41751", "btc_revenue": "0.000156", "btc_revenue24": "0.00009843", "profitability": 58, "profitability24": 37, "lagging": false, "timestamp": 1550052079
+    }
+  ,
+    "BitSend": {
+      "id": 201, "tag": "BSD", "algorithm": "Xevan", "block_time": "194.0", "block_reward": 5.0, "block_reward24": 5.0, "last_block": 595758, "difficulty": 33.246983845142, "difficulty24": 63.4153690771358, "nethash": 736055197, "exchange_rate": 1.266e-05, "exchange_rate24": 1.25986107091172e-05, "exchange_rate_vol": 0.15984174, "exchange_rate_curr": "BTC", "market_cap": "$1,032,924.08", "estimated_rewards": "14.42746", "estimated_rewards24": "7.58732", "btc_revenue": "0.00018265", "btc_revenue24": "0.00009606", "profitability": 67, "profitability24": 36, "lagging": false, "timestamp": 1550052148
+    }
+  ,
+    "Monero": {
+      "id": 101, "tag": "XMR", "algorithm": "CryptoNightV8", "block_time": "123.0", "block_reward": 3.16112288589, "block_reward24": 3.16659506485994, "last_block": 1770433, "difficulty": 94759607796.0, "difficulty24": 97684869687.0852, "nethash": 770403315, "exchange_rate": 0.013536, "exchange_rate24": 0.0133766550724638, "exchange_rate_vol": 607.27735688, "exchange_rate_curr": "BTC", "market_cap": "$836,168,812.04", "estimated_rewards": "0.00718", "estimated_rewards24": "0.00697", "btc_revenue": "0.00009714", "btc_revenue24": "0.0000944", "profitability": 36, "profitability24": 35, "lagging": false, "timestamp": 1550051890
+    }
+  ,
+    "GoByte": {
+      "id": 225, "tag": "GBX", "algorithm": "NeoScrypt", "block_time": "155.0", "block_reward": 3.7125000000000004, "block_reward24": 3.71250000000001, "last_block": 247824, "difficulty": 120.330502639431, "difficulty24": 86.5341661794179, "nethash": 3334294022, "exchange_rate": 3.9382e-05, "exchange_rate24": 3.86910497803807e-05, "exchange_rate_vol": 0.5609152005, "exchange_rate_curr": "BTC", "market_cap": "$636,269.48", "estimated_rewards": "1.52567", "estimated_rewards24": "2.12091", "btc_revenue": "0.00006008", "btc_revenue24": "0.00008353", "profitability": 22, "profitability24": 31, "lagging": false, "timestamp": 1550052162
+    }
+  ,
+    "Motion": {
+      "id": 248, "tag": "XMN", "algorithm": "X16R", "block_time": "118.0", "block_reward": 8.0, "block_reward24": 8.0, "last_block": 205208, "difficulty": 15.0, "difficulty24": 17.9840012928248, "nethash": 545970418, "exchange_rate": 4.0e-07, "exchange_rate24": 4.03357452966719e-07, "exchange_rate_vol": 0.00179306, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "246.64973", "estimated_rewards24": "207.17174", "btc_revenue": "0.00009866", "btc_revenue24": "0.00008287", "profitability": 36, "profitability24": 31, "lagging": false, "timestamp": 1550052208
+    }
+  ,
+    "XDNA": {
+      "id": 266, "tag": "XDNA", "algorithm": "Hex", "block_time": "60.0", "block_reward": 1.664, "block_reward24": 1.66399999999999, "last_block": 322703, "difficulty": 67.5569586611795, "difficulty24": 69.9555833017686, "nethash": 4835915467, "exchange_rate": 6.51e-06, "exchange_rate24": 6.63205499276417e-06, "exchange_rate_vol": 0.02076833, "exchange_rate_curr": "BTC", "market_cap": "$93,286.98", "estimated_rewards": "11.24422", "estimated_rewards24": "10.86042", "btc_revenue": "0.0000732", "btc_revenue24": "0.0000707", "profitability": 27, "profitability24": 26, "lagging": false, "timestamp": 1550052194
+    }
+  ,
+    "SimpleBank": {
+      "id": 252, "tag": "SPLB", "algorithm": "NeoScrypt", "block_time": "185.0", "block_reward": 4.2, "block_reward24": 4.20000000000003, "last_block": 128660, "difficulty": 1.03037592566388, "difficulty24": 0.569169359993028, "nethash": 23921248, "exchange_rate": 1.3e-07, "exchange_rate24": 1.3698986975398e-07, "exchange_rate_vol": 0.00084204, "exchange_rate_curr": "BTC", "market_cap": "$841.46", "estimated_rewards": "182.90731", "estimated_rewards24": "307.85804", "btc_revenue": "0.00002378", "btc_revenue24": "0.00004002", "profitability": 9, "profitability24": 15, "lagging": false, "timestamp": 1550051903
+    }
+  ,
+    "Mano": {
+      "id": 254, "tag": "MANO", "algorithm": "Lyra2z", "block_time": "151.0", "block_reward": 5.0, "block_reward24": 5.0, "last_block": 164208, "difficulty": 162.466687325689, "difficulty24": 153.323008558512, "nethash": 4621119925, "exchange_rate": 7.9e-06, "exchange_rate24": 8.07753979739515e-06, "exchange_rate_vol": 0.12801478, "exchange_rate_curr": "BTC", "market_cap": "$58,737.59", "estimated_rewards": "0.83554", "estimated_rewards24": "0.88535", "btc_revenue": "0.0000066", "btc_revenue24": "0.00000699", "profitability": 2, "profitability24": 3, "lagging": true, "timestamp": 1550013891
+    }
+  ,
+    "Actinium": {
+      "id": 290, "tag": "ACM", "algorithm": "Lyra2z", "block_time": "164.0", "block_reward": 50.0, "block_reward24": 50.0, "last_block": 167679, "difficulty": 1499.5814553221, "difficulty24": 1527.95840178006, "nethash": 39272276270, "exchange_rate": 7.66e-06, "exchange_rate24": 7.39311143270624e-06, "exchange_rate_vol": 0.46140294, "exchange_rate_curr": "BTC", "market_cap": "$227,847.60", "estimated_rewards": "0.90547", "estimated_rewards24": "0.88865", "btc_revenue": "0.00000694", "btc_revenue24": "0.00000681", "profitability": 3, "profitability24": 3, "lagging": false, "timestamp": 1550051896
+    }
+  ,
+    "Gincoin": {
+      "id": 250, "tag": "GIN", "algorithm": "Lyra2z", "block_time": "125.0", "block_reward": 10.0, "block_reward24": 10.0, "last_block": 240042, "difficulty": 8425.86979722519, "difficulty24": 10155.5441227899, "nethash": 289510681755, "exchange_rate": 0.00021309, "exchange_rate24": 0.000203123733719248, "exchange_rate_vol": 3.23777318, "exchange_rate_curr": "BTC", "market_cap": "$4,094,695.85", "estimated_rewards": "0.03223", "estimated_rewards24": "0.02674", "btc_revenue": "0.00000687", "btc_revenue24": "0.0000057", "profitability": 3, "profitability24": 2, "lagging": false, "timestamp": 1550052155
+    }
+  ,
+    "Nicehash-Lyra2z": {
+      "id": 27, "tag": "NICEHASH", "algorithm": "Lyra2z", "block_time": 1, "block_reward": 1, "block_reward24": 1, "last_block": 0, "difficulty": 1, "difficulty24": 1, "nethash": 94205892270, "exchange_rate": 0.0039, "exchange_rate24": 0.0038, "exchange_rate_vol": 0.357683205948, "exchange_rate_curr": "BTC", "market_cap": "$0.00", "estimated_rewards": "1.0e-05", "estimated_rewards24": "1.0e-05", "btc_revenue": "5.27e-06", "btc_revenue24": "5.13e-06", "profitability": 2, "profitability24": 2, "lagging": false, "timestamp": 1550052202
+    }
+  ,
+    "Elliot": {
+      "id": 251, "tag": "ELLI", "algorithm": "Xevan", "block_time": "60.0", "block_reward": 0, "block_reward24": 0.0, "last_block": 439113, "difficulty": 83682.1323357494, "difficulty24": 81197.2995333838, "nethash": 5990200360693, "exchange_rate": 5.2e-07, "exchange_rate24": 5.20000000000002e-07, "exchange_rate_vol": 1.6e-07, "exchange_rate_curr": "BTC", "market_cap": "$38,161.03", "estimated_rewards": "0.0", "estimated_rewards24": "0.0", "btc_revenue": "0.0", "btc_revenue24": "0.0", "profitability": 0, "profitability24": 0, "lagging": false, "timestamp": 1550052031
+    }
+  ,
+    "Luxcoin": {
+      "id": 212, "tag": "LUX", "algorithm": "PHI2", "block_time": "60.0", "block_reward": 8.0, "block_reward24": 8.0, "last_block": 607782, "difficulty": 2868.06132649702, "difficulty24": 2324.90080242125, "nethash": 205303826670, "exchange_rate": 7.669e-05, "exchange_rate24": 7.54476266280753e-05, "exchange_rate_vol": 0.41512859, "exchange_rate_curr": "BTC", "market_cap": "$1,015,592.81", "estimated_rewards": "0.0", "estimated_rewards24": "0.0", "btc_revenue": "0.0", "btc_revenue24": "0.0", "profitability": 0, "profitability24": 0, "lagging": false, "timestamp": 1550052190
+    }
+  ,
+    "Argoneum": {
+      "id": 285, "tag": "AGM", "algorithm": "PHI2", "block_time": "63.0", "block_reward": 13.5, "block_reward24": 13.5, "last_block": 143555, "difficulty": 50.4338154172666, "difficulty24": 54.1407087203152, "nethash": 3438279171, "exchange_rate": 2.91e-06, "exchange_rate24": 2.90586107091174e-06, "exchange_rate_vol": 0.03905389, "exchange_rate_curr": "BTC", "market_cap": "$57,343.52", "estimated_rewards": "0.0", "estimated_rewards24": "0.0", "btc_revenue": "0.0", "btc_revenue24": "0.0", "profitability": 0, "profitability24": 0, "lagging": false, "timestamp": 1550052156
+    }
+  }
+}

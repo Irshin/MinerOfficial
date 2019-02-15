@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <style>
+
+           .prices-table-wrp {
+               float: left;
+               width: 100%;
+               box-shadow: 0 7px 10px rgba(35,35,35,.42);
+               background-color: #181818;
+               -webkit-border-radius: 6px;
+               border-radius: 6px;
+               padding: 10px 30px 20px;
+               margin-top: 30px;
+               margin-bottom: 30px;
+           }
+       div {
+           margin: 0;
+           padding: 0;
+           border: 0;
+           font-size: 100%;
+           font: inherit;
+           vertical-align: baseline;
+           display: block;
+       }
+          * {
+              outline: 0!important;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+          }
+          .prices-table-wrp .prices-table tbody tr td:first-child {
+              text-align: left;
+          }
+          .prices-table-wrp .prices-table tbody tr.table-head td {
+              text-align: right;
+              color: #ff5e39;}
+          .prices-table-wrp .prices-table tbody tr:first-child td {
+              vertical-align: top;}
+          .prices-table-wrp .prices-table tbody tr td {
+              padding: 15px 10px;
+              color: #fff;
+              text-align: right;
+              vertical-align: middle;
+              position: relative;
+              z-index: 40;}
+          .prices-table-wrp .prices-table {
+              float: left;
+              width: 100%;
+              font-size: 14px;
+              line-height: 18px;
+              overflow: hidden;
+
+          }
+          table {
+              border-collapse: collapse;
+              border-spacing: 0;
+              display: table;
+              border-collapse: separate;
+              border-spacing: 2px;
+              border-color: grey;
+              width: 100%;
+              height: 30vh;
+              background-color: #181818;
+              display: table;
+               border-collapse: separate;
+               border-spacing: 2px;
+               border-color: grey;
+           }
+
+          .prices-table-wrp .prices-table tbody tr td:first-child {
+              text-align: left;
+          }
+          .prices-table-wrp .prices-table tbody tr td {
+              padding: 15px 10px;
+              color: #fff;
+              text-align: right;
+              vertical-align: middle;
+              position: relative;
+              z-index: 40;
+          }
+          .container {
+              width: 100%;
+              padding-right: 15px;
+              padding-left: 15px;
+              margin-right: auto;
+              margin-left: auto;
+          }
+          .prices-table-wrp .prices-table tbody tr.table-head td:nth-child(2n):before {
+              content: "";
+              display: block;
+              float: left;
+              width: 100%;
+              height: 1000px;
+              background-color: rgba(51,51,51,.69);
+              position: absolute;
+              left: 0;
+              top: 0;
+              z-index: -1;
+          }
+   </style>
+</head>
+<body>
+<div class="container">
+    <div class="prices-table-wrp">
+        <table class="prices-table">
+            <tbody>
+            <tr class="table-head">
+                <td>Монета</td>
+                <td>Майнер</td>
+                <td>Цена майнера</td>
+                <td>Доходность в месяц в $</td>
+                <td>Доход&nbsp;чистыми <br>в месяц в $</td>
+                <td>Курс монеты</td>
+                <td>Затраты на электричество<br> в месяц</td>
+                <td>Доходность в день в $</td>
+                <td>Окупаемость</td>
+            </tr>
+            <tr></tr>
+            <td>
+                <div class="acryl-logo">
+                    <img src="assets/images/acryl.svg" width="20" height="20" alt="Acryl image">
+                    Acryl
+                </div>
+            </td>
+            <td> <span>  <div class="tabl"> Acryl Node v1.0</div></span></td>
+            <td> <div class="tabl"> 1300$ </div></td>
+            <td><div class="tabl">205$</div></td>
+            <td><div class="tabl">202$</div></td>
+            <td><div class="tabl">1$</div></td>
+            <td><div class="tabl">3$</div></td>
+            <td><div class="tabl">6,5$</div></td>
+            <td><div class="tabl">6,5мес.</div></td>
+            <tr> </tr>
+            </tr>
+            <td>BTC</td>
+            <td>
+                <span>s9j - 14,5 TH</span><br>
+                <span>s15 - 27 TH</span><br>
+                <span>t15 - 23 TH</span><br>
+                <span>s11 - 20 TH</span>
+            </td>
+            <td>320$ <br> 1200$<br> 850$<br>550$</td>
+            <td>70$ <br> 132$<br> 111$<br> 96$</td>
+            <td>20$ <br> 80$<br> 51$<br> 30$</td>
+            <td>3500$</td>
+            <td>50$ <br> 60$<br> 60$<br>60$</td>
+            <td>2,3$ <br> 4,4$<br> 3,7$<br> 3,2$</td>
+            <td>16мес. <br> 15мес.<br> 17мес.<br> 18мес.</td>
+            </tr>
+            <tr> </tr>
+            <tr>
+                <td>LTC</td>
+                <td><span>L3++ - 590 Mh</span></td>
+                <td>220$</td>
+                <td>39$</td>
+                <td>9$</td>
+                <td>25$</td>
+                <td>30$</td>
+                <td>1,3$</td>
+                <td>23мес.</td>
+            </tr>
+            <tr> </tr>
+            <tr>
+                <td>x11</td>
+                <td><span>d3 - 19,3 Mh</span></td>
+                <td>120$</td>
+                <td>36$</td>
+                <td>-1$</td>
+                <td>66$</td>
+                <td>40$</td>
+                <td>1,2$</td>
+                <div class="analytics-logo">
+                    <img src="assets/images/analytics.png" width="40" height="30" alt="Analytic image">
+                </div>
+                <td>></td>
+            </tr>
+            <tr> </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
