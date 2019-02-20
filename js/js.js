@@ -1,15 +1,15 @@
 
 // url (required), options (optional)
-<<<<<<< HEAD
+
 /*fetch( 'table.json', {
-=======
+
 fetch( 'table.json', {
 >>>>>>> 0e8216fbcbb1da4027e411617459cfa283da4b56
     method: 'get'
 }).then( function( response ) {
     console.log(response.json());
     // Success
-<<<<<<< HEAD
+
 }).catch( function( err ) {*/
     // Error
 (function($) {
@@ -63,27 +63,9 @@ $("#contact").click(function() {
                 });
 
 })(jQuery); // End of use strict
-=======
-}).catch( function( err ) {
-    // Error
-});
 
-function infoalert() {
-    alert("Запуск сайта будет произведен в ближайшее время");
-}
-$("#platform").click(function() {
-    infoalert()
-});
-$("#news").click(function() {
-    infoalert()
-});
-$("#node").click(function() {
-    infoalert()
-});
-$("#contact").click(function() {
-    infoalert()
-});
->>>>>>> 0e8216fbcbb1da4027e411617459cfa283da4b56
+
+
 /*
 var collection = '{"tr": [{"td1": "name1","td2": "name2"},{"td1": "name1","td2": "name2"}]}';
 var tr += '';
