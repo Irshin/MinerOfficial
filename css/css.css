@@ -298,6 +298,94 @@ table {
 }
 a{color: wheat}
 
+::-webkit-input-placeholder {
+    color: #bbb;
+}
+:-moz-placeholder {
+    color: #bbb;
+}
+.placeholder{
+    color: #bbb; /* polyfill */
+}
+#signup input {
+    margin: 5px 0;
+    padding: 15px;
+   /* width: 100%;
+    width: 518px; !* IE7 and below *!*/
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#signup input:focus{
+    outline: 0;
+    border-color: #aaa;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .3) inset;
+}
+#signup button{
+    margin: 20px 0 0 0;
+    padding: 15px 8px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid tomato;
+    overflow: visible;
+    display: inline-block;
+    color: wheat;
+    font: bold 1.4em arial, helvetica;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.4);
+    background-color: tomato;
+    background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+    transition: background-color .2s ease-out;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .3), 0 1px 0 rgba(255, 255, 255, .5) inset;
+}
+#signup button:hover{
+    background-color: #7cbfff;
+    border-color: #7cbfff;
+}
+
+#signup button:active{
+    position: relative;
+    top: 3px;
+    text-shadow: none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
+
+}
+
+@media(min-width: 310px) {
+    #signup input{
+        width: 240px;
+        margin-left: 55px;
+    }
+}
+@media(min-width: 412px) {
+    #signup input{
+        width: 240px;
+        margin-left: 160px;
+    }
+}
+@media(min-width: 600px) {
+    #signup input{
+        width: 350px;
+        margin-left: 250px;
+    }
+}
+
+@media(min-width: 992px) {
+    #signup input{
+        width: 350px;
+        margin-left: 395px;
+    }
+}
+@media(min-width: 1252px) {
+    #signup input{
+        width: 500px;
+        margin-left: 395px;
+    }
+}
+
+
+
+
 
 
 
