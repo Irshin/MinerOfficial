@@ -18,6 +18,9 @@ fetch( 'table.json', {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                return re.test(email);
     }
+    function infoalert() {
+        alert("Эта функция скоро будет доступна");
+    }
     var encoded = "&bull;&nbsp;";
     var bull = $("<div/>").html(encoded).text();
     // Select all links with hashes
@@ -33,34 +36,28 @@ fetch( 'table.json', {
                 });
             } catch (e) {
             }
-            alert("Спасибо за подписку на новости: " + $("#userEmail").val().toString() + "!");
+            alert("Спасибо за подписку: " + $("#userEmail").val().toString() + "!");
             $("#userEmail").val("");
         } else {
             var infoText = "";
             if (validateEmail($("#userEmail").val()) === false) {
-                infoText += bull + "Email указан не верно\n";
+                infoText += bull + "Пожалуйста укажите Email верно \n";
             }
             alert(infoText);
         }
-        function infoalerto() {
-            alert("Запуск сайта будет произведен в ближайшее время");
-        }
-        $("#fourm").click(function()
-            {infoalerto()
-
-    $("#news").click(function() {
-    infoalerto()
-});
-$("#node").click(function() {
-    infoalerto()
-
-});
-$("#contact").click(function() {
-    infoalerto()
-
-});
-            });
-                });
+    });
+        $("#forum").click(function() {
+            infoalert()
+        });
+        $("#news").click(function() {
+            infoalert()
+        });
+        $("#node").click(function() {
+            infoalert()
+        });
+        $("#contact").click(function() {
+            infoalert()
+        });
 
 })(jQuery); // End of use strict
 
