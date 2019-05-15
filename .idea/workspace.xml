@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa20a5f5-ff3b-4c1c-91fc-56aeede563f0" name="Default Changelist" comment="test">
+    <list default="true" id="fa20a5f5-ff3b-4c1c-91fc-56aeede563f0" name="Default Changelist" comment="fix all project">
+      <change afterPath="$PROJECT_DIR$/forum/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cssT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cssT.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/minerofficial.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/minerofficial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,20 +34,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-995">
-              <caret line="23" column="119" selection-start-line="23" selection-start-column="119" selection-end-line="23" selection-end-column="119" />
+            <state relative-caret-position="332">
+              <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
+              <folding>
+                <marker date="1557735558893" expanded="true" signature="22242:22422" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/cssT.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="177" column="38" selection-start-line="177" selection-start-column="38" selection-end-line="177" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test2.html">
+        <entry file="file://$PROJECT_DIR$/js/minerofficial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="359" column="10" lean-forward="true" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="10" />
+            <state relative-caret-position="177">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,29 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="144" column="18" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/js.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="882" column="24" selection-start-line="882" selection-start-column="24" selection-end-line="882" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="6545">
+              <caret line="385" column="2" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -83,20 +78,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.font-size-14</find>
-      <find>font-size-14</find>
-      <find>.m-h-65</find>
-      <find>m-h-65</find>
-      <find>.border-radius-left</find>
       <find>.font-weight-medium</find>
       <find>.bg-primary</find>
       <find>.minh70</find>
@@ -122,6 +112,11 @@
       <find>signup</find>
       <find>form</find>
       <find>subscription</find>
+      <find>background</find>
+      <find>br</find>
+      <find>button</find>
+      <find>h</find>
+      <find>p</find>
     </findStrings>
     <replaceStrings>
       <replace>text-success</replace>
@@ -141,7 +136,6 @@
       <list>
         <option value="$PROJECT_DIR$/styleminer.css" />
         <option value="$PROJECT_DIR$/css.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/cssTable.css" />
         <option value="$PROJECT_DIR$/table.html" />
         <option value="$PROJECT_DIR$/cssT.css" />
@@ -153,10 +147,18 @@
         <option value="$PROJECT_DIR$/html/tableminer.html" />
         <option value="$PROJECT_DIR$/tableminer.html" />
         <option value="$PROJECT_DIR$/index1.html" />
-        <option value="$PROJECT_DIR$/test2.html" />
-        <option value="$PROJECT_DIR$/css/css.css" />
-        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/index5.html" />
+        <option value="$PROJECT_DIR$/forum/js.js" />
+        <option value="$PROJECT_DIR$/forum/index.html" />
+        <option value="$PROJECT_DIR$/forum/css.css" />
+        <option value="$PROJECT_DIR$/css/cssT.css" />
+        <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/minerofficial.js" />
       </list>
     </option>
   </component>
@@ -171,6 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +185,17 @@
             <path>
               <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
               <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
@@ -192,15 +206,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550642953090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557311209651" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -265,7 +277,29 @@
       <workItem from="1550230089242" duration="171000" />
       <workItem from="1550230321564" duration="158000" />
       <workItem from="1550548190792" duration="12665000" />
-      <workItem from="1550634446927" duration="6316000" />
+      <workItem from="1550634446927" duration="8524000" />
+      <workItem from="1550645427099" duration="8396000" />
+      <workItem from="1550723411519" duration="6279000" />
+      <workItem from="1550816121380" duration="974000" />
+      <workItem from="1551074376564" duration="1289000" />
+      <workItem from="1551091214163" duration="1819000" />
+      <workItem from="1551162210921" duration="1987000" />
+      <workItem from="1551347674377" duration="3598000" />
+      <workItem from="1551780265085" duration="1400000" />
+      <workItem from="1551853494257" duration="1197000" />
+      <workItem from="1551940514745" duration="2490000" />
+      <workItem from="1552283594621" duration="1596000" />
+      <workItem from="1552469742469" duration="1601000" />
+      <workItem from="1552639311453" duration="2768000" />
+      <workItem from="1552896674417" duration="7316000" />
+      <workItem from="1553592544058" duration="5791000" />
+      <workItem from="1554359624470" duration="1006000" />
+      <workItem from="1554806993117" duration="614000" />
+      <workItem from="1555314111252" duration="38000" />
+      <workItem from="1555413813375" duration="662000" />
+      <workItem from="1555916675381" duration="1918000" />
+      <workItem from="1557127269198" duration="14149000" />
+      <workItem from="1557731017906" duration="5828000" />
     </task>
     <task id="LOCAL-00001" summary="j">
       <created>1550228140833</created>
@@ -295,11 +329,74 @@
       <option name="project" value="LOCAL" />
       <updated>1550229390069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="button subscription">
+      <created>1550643248004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550643248004</updated>
+    </task>
+    <task id="LOCAL-00006" summary="button subscription">
+      <created>1550643817887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550643817887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix error">
+      <created>1550644296986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550644296986</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219&#10;&#10;# Conflicts:&#10;#&#9;css/css.css&#10;#&#9;js/js.js&#10;#&#9;test.html&#10;#&#9;test2.html">
+      <created>1550645853778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550645853778</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219&#10;&#10;# Conflicts:">
+      <created>1550647215013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550647215013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219">
+      <created>1550647348264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550647348264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix all project">
+      <created>1550648092162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550648092162</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix all project">
+      <created>1550648509344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550648509344</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix all project">
+      <created>1550752776909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550752776909</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179643000" />
+    <option name="totallyTimeSpent" value="254567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +411,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36488673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37216827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,19 +419,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919093" weight="0.3298731" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49919093" weight="0.3298731" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49838188" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.552589" weight="0.3298731" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.54126215" weight="0.25951558" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48786408" visible="true" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5121359" side_tool="true" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.47411004" weight="0.034602076" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008091" side_tool="true" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3298731" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49919093" visible="true" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,7 +493,13 @@
     </ignored-roots>
     <MESSAGE value="j" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="button subscription" />
+    <MESSAGE value="fix error" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219&#10;&#10;# Conflicts:&#10;#&#9;css/css.css&#10;#&#9;js/js.js&#10;#&#9;test.html&#10;#&#9;test2.html" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219&#10;&#10;# Conflicts:" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Irshin/MinerOfficial into fixerror200219" />
+    <MESSAGE value="fix all project" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix all project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styleminer.css" />
@@ -415,58 +518,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cssTable.css" />
-    <entry file="file://$PROJECT_DIR$/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/table.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjson.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cssT.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tableminer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="89" column="16" lean-forward="true" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -490,9 +541,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="47" column="153" selection-start-line="47" selection-start-column="143" selection-end-line="47" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tableminer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="346" column="29" lean-forward="true" selection-start-line="346" selection-start-column="29" selection-end-line="346" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjson.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
           <caret line="882" column="24" selection-start-line="882" selection-start-column="24" selection-end-line="882" selection-end-column="24" />
           <folding>
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
@@ -502,29 +628,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="144" column="18" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="18" />
+        <state relative-caret-position="6545">
+          <caret line="385" column="2" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.html">
+    <entry file="file://$PROJECT_DIR$/forum/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="359" column="10" lean-forward="true" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="10" />
+        <state relative-caret-position="185">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/js/minerofficial.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="177">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-995">
-          <caret line="23" column="119" selection-start-line="23" selection-start-column="119" selection-end-line="23" selection-end-column="119" />
+        <state relative-caret-position="332">
+          <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
+          <folding>
+            <marker date="1557735558893" expanded="true" signature="22242:22422" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cssT.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="177" column="38" selection-start-line="177" selection-start-column="38" selection-end-line="177" selection-end-column="38" />
         </state>
       </provider>
     </entry>
