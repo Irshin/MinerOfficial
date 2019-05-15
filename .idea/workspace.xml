@@ -6,10 +6,11 @@
       <change afterPath="$PROJECT_DIR$/forum/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/forum/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cssT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cssT.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/minerofficial.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/minerofficial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/MinerOfficial/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/MinerOfficial/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cssT.css" beforeDir="false" afterPath="$PROJECT_DIR$/MinerOfficial/css/cssT.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MinerOfficial/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/minerofficial.js" beforeDir="false" afterPath="$PROJECT_DIR$/MinerOfficial/js/minerofficial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,38 +35,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
-              <folding>
-                <marker date="1557735558893" expanded="true" signature="22242:22422" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/cssT.css">
+        <entry file="file://$PROJECT_DIR$/MinerOfficial/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="177" column="38" selection-start-line="177" selection-start-column="38" selection-end-line="177" selection-end-column="38" />
+            <state relative-caret-position="3276">
+              <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/minerofficial.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/css.css">
+        <entry file="file://$PROJECT_DIR$/MinerOfficial/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6545">
               <caret line="385" column="2" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
@@ -157,8 +137,8 @@
         <option value="$PROJECT_DIR$/css/cssT.css" />
         <option value="$PROJECT_DIR$/css/css.css" />
         <option value="$PROJECT_DIR$/test2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/minerofficial.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -182,26 +162,6 @@
               <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
               <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MinerOfficialAnalytic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MinerOfficialAnalytic" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,7 +172,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557311209651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557903750330" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -221,16 +181,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic" />
-      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\css" />
-      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\html" />
-      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects" />
       <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic" />
       <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\MinerOfficial" />
+      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic" />
+      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\css" />
+      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\html" />
+      <recent name="C:\Users\User\IdeaProjects\MinerOfficialAnalytic\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254567000" />
+    <option name="totallyTimeSpent" value="255607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +372,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37216827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37216827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +392,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.47411004" weight="0.034602076" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008091" side_tool="true" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49919093" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49919093" visible="true" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,7 +479,7 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cssTable.css" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/MinerOfficial/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="10178" column="1" selection-start-line="10178" selection-start-column="1" selection-end-line="10178" selection-end-column="1" />
@@ -578,33 +539,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tableminer.html">
+    <entry file="file://$PROJECT_DIR$/forum/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+        <state relative-caret-position="185">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.html">
+    <entry file="file://$PROJECT_DIR$/MinerOfficial/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1109">
-          <caret line="346" column="29" lean-forward="true" selection-start-line="346" selection-start-column="29" selection-end-line="346" selection-end-column="29" />
+        <state relative-caret-position="6545">
+          <caret line="385" column="2" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="-493">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tableminer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="726">
           <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="882" column="24" selection-start-line="882" selection-start-column="24" selection-end-line="882" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -616,51 +594,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index5.html">
+    <entry file="file://$PROJECT_DIR$/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="882" column="24" selection-start-line="882" selection-start-column="24" selection-end-line="882" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/MinerOfficial/js/minerofficial.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6545">
-          <caret line="385" column="2" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forum/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/minerofficial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="-384">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/MinerOfficial/css/cssT.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
-          <folding>
-            <marker date="1557735558893" expanded="true" signature="22242:22422" ph="..." />
-          </folding>
+        <state relative-caret-position="3009">
+          <caret line="177" column="38" selection-start-line="177" selection-start-column="38" selection-end-line="177" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cssT.css">
+    <entry file="file://$PROJECT_DIR$/MinerOfficial/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="177" column="38" selection-start-line="177" selection-start-column="38" selection-end-line="177" selection-end-column="38" />
+        <state relative-caret-position="3276">
+          <caret line="368" column="13" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="13" />
         </state>
       </provider>
     </entry>
