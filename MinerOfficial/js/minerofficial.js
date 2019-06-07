@@ -59,7 +59,16 @@ fetch( 'table.json', {
     $("#contact").click(function() {
         infoalert()
     });
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+    }
+    $('.points').each(function(){
+        var v_pound = $(this).html();
+        v_pound = numberWithCommas(v_pound);
 
+        $(this).html(v_pound)
+
+    })
 
     $.getJSON('http://localhost:8080/', function(data) {
         //data is the JSON string
@@ -84,6 +93,41 @@ fetch( 'table.json', {
         $("#ubq_last_block").text(data["dash"]["last_block"]);
         $("#grin_last_block").text(data["grin"]["last_block"]);
         $("#ltc_last_block").text(data["ltc"]["last_block"]);
+        $("#btc_difficulty").text(numberWithCommas((data["btc"]["difficulty"] /1000000).toFixed()));
+        $("#ethc_difficulty").text(numberWithCommas((data["ethc"]["difficulty"]/1000000).toFixed()));
+        $("#eth_difficulty").text(numberWithCommas((data["eth"]["difficulty"] /1000000).toFixed()));
+        $("#ubq_difficulty").text(numberWithCommas((data["ubq"]["difficulty"] /1000000).toFixed()));
+        $("#dash_difficulty").text(numberWithCommas((data["dash"]["difficulty"]).toFixed()));
+        $("#grin_difficulty").text(numberWithCommas((data["grin"]["difficulty"]).toFixed()));
+        $("#ltc_difficulty").text(numberWithCommas((data["ltc"]["difficulty"]).toFixed()));
+        $("#btc_nethash").text(numberWithCommas((data["btc"]["nethash"]/1000000000000000).toFixed()));;
+        $("#ethc_nethash").text(numberWithCommas((data["ethc"]["nethash"]/1000000000000).toFixed()));
+        $("#eth_nethash").text(numberWithCommas((data["eth"]["nethash"]/1000000000000).toFixed()));
+        $("#ubq_nethash").text(numberWithCommas((data["ubq"]["nethash"]/1000000000).toFixed()));
+        $("#dash_nethash").text(numberWithCommas((data["dash"]["nethash"]/1000000000000000).toFixed()));
+        $("#grin_nethash").text(numberWithCommas((data["grin"]["nethash"]/1000000).toFixed()));
+        $("#ltc_nethash").text(numberWithCommas((data["ltc"]["nethash"]/1000000000000).toFixed()));
+        $("#btc_Exchange").text(data["btc"]["exchange_rate"]);
+        $("#ethc_Exchange").text(data["ethc"]["exchange_rate"]);
+        $("#eth_Exchange").text(data["eth"]["exchange_rate"]);
+        $("#ubq_Exchange").text(data["ubq"]["exchange_rate"]);
+        $("#dash_Exchange").text(data["dash"]["exchange_rate"]);
+        $("#grin_Exchange").text(data["grin"]["exchange_rate"]);
+        $("#ltc_Exchange").text(data["ltc"]["exchange_rate"]);
+        $("#btc_market_cap").text(data["btc"]["market_cap"]);
+        $("#ethc_market_cap").text(data["ethc"]["market_cap"]);
+        $("#eth_market_cap").text(data["eth"]["market_cap"]);
+        $("#ubq_market_cap").text(data["ubq"]["market_cap"]);
+        $("#dash_market_cap").text(data["dash"]["market_cap"]);
+        $("#grin_market_cap").text(data["grin"]["market_cap"]);
+        $("#ltc_market_cap").text(data["ltc"]["market_cap"]);
+        $("#btc_market_volume").text(numberWithCommas((data["btc"]["exchange_rate_vol"]).toFixed()));
+        $("#ethc_market_volume").text(numberWithCommas((data["ethc"]["exchange_rate_vol"]).toFixed()));
+        $("#eth_market_volume").text(numberWithCommas((data["eth"]["exchange_rate_vol"]).toFixed()));
+        $("#dash_market_volume").text(numberWithCommas((data["ubq"]["exchange_rate_vol"]).toFixed()));
+        $("#ubq_market_volume").text(Math.round(data["dash"]["exchange_rate_vol"]).toFixed());
+        $("#grin_market_volume").text(numberWithCommas((data["grin"]["exchange_rate_vol"]).toFixed()));
+        $("#ltc_market_volume").text(numberWithCommas((data["ltc"]["exchange_rate_vol"]).toFixed()));
 
     });
 

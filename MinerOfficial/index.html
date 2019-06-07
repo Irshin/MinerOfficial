@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/css.css">
-    <link rel="shortcut icon" href="../assets/images/analytics.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/Minericon.png" type="image/x-icon">
    <!-- <link rel="table" href="table.json">-->
     <meta name="description" content="">
     <title>MinerOfficial</title>
@@ -18,11 +18,11 @@
 </head>
 <body>
 <nav class="navbar navbar-light navbar-expand-lg fixed-top pr-2 navbar-shrink" id="mainNav">
-    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../assets/images/analytics.png?h=942800b6fadab683579af65a9cb46de3" alt="acryl logo"></a>
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../assets/images/logo_miner.png" width="250" height="70" alt="Miner logo"><a/>
         <button class="navbar-toggler text-primary navbar-toggler-right border-primary" data-toggle="collapse" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-justify"></i></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav ml-auto">
-                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" id="forum" href="#forum">Форум </a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" id="forum" href="#forum">Форум </a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"  id="news" href="#news">новости</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger active"  id="node" href="#node">Майнинг</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" id="contact" href="#contact">КОнтакты</a></li>
@@ -54,19 +54,19 @@
                         <tbody>
                         <tr class="table-dark-a">
                             <td class="text-left rounded-left">
-                                Block Time &nbsp;<br></td>
-                            <td class="text-success">POS<br></td>
-                            <td class="text-success"><span id="btc_block_time"></span> s</td>
-                            <td class="text-success rounded-right"><span id="ethc_block_time"></span> s</td>
-                            <td class="text-success rounded-right"><span id="eth_block_time"></span> s</td>
-                            <td class="text-success rounded-right"><span id="dash_block_time"></span> s<br></td>
-                            <td class="text-success rounded-right"><span id="ubq_block_time"></span> s<br></td>
-                            <td class="text-success rounded-right"><span id="grin_block_time"></span> s<br></td>
-                            <td class="text-success rounded-right"><span id="ltc_block_time"></span> s<br></td>
+                                Block Time sec<br></td>
+                            <td class="text-success">100 <br></td>
+                            <td class="text-success"><span id="btc_block_time"></span></td>
+                            <td class="text-success rounded-right"><span id="ethc_block_time"></span></td>
+                            <td class="text-success rounded-right"><span id="eth_block_time"></span></td>
+                            <td class="text-success rounded-right"><span id="dash_block_time"></span><br></td>
+                            <td class="text-success rounded-right"><span id="ubq_block_time"></span><br></td>
+                            <td class="text-success rounded-right"><span id="grin_block_time"></span><br></td>
+                            <td class="text-success rounded-right"><span id="ltc_block_time"></span><br></td>
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Block Reward<br></td>
-                            <td class="text-success table-dark-a">s</td>
+                            <td class="text-success table-dark-a">4.5</td>
                             <td class="text-success"><span id="btc_block_reward"></span></td>
                             <td class="text-success"><span id="ethc_block_reward"></span></td>
                             <td class="text-success"><span id="eth_block_reward"></span></td>
@@ -77,7 +77,7 @@
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
                             <td class="text-left rounded-left">Last Block<br></td>
-                            <td class="text-success">Низкая</td>
+                            <td class="text-success">200000</td>
                             <td class="text-success"><span id="btc_last_block"></span></td>
                             <td class="text-success"><span id="ethc_last_block"></span></td>
                             <td class="text-success"><span id="eth_last_block"></span></td>
@@ -87,85 +87,85 @@
                             <td class="text-success"><span id="ltc_last_block"></span></td>
                         </tr>
                         <tr class="bg-dark">
-                            <td class="text-left">Difficulty NetHash <br></td>
+                            <td class="text-left">Difficulty NetHash M <br></td>
                             <td class="text-success table-dark-a">1<br></td>
-                            <td class="text-success">6,061,519<br></td>
-                            <td class="text-success">123,982,632</td>
-                            <td class="text-success">2,821,393,268</td>
-                            <td class="text-success">11,406,970</td>
-                            <td class="text-success">10,989,211</td>
-                            <td class="text-success">156,011,116</td>
-                            <td class="text-success">7,150,783.549</td>
+                            <td class="text-success"><span id="btc_difficulty"></span></td>
+                            <td class="text-success"><span id="ethc_difficulty"></span></td>
+                            <td class="text-success"><span id="eth_difficulty"></span></td>
+                            <td class="text-success"><span id="dash_difficulty"></span></td>
+                            <td class="text-success"><span id="ubq_difficulty"></span></td>
+                            <td class="text-success"><span id="grin_difficulty"></span></td>
+                            <td class="text-success"><span id="ltc_difficulty"></span></td>
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
                             <td class="text-left rounded-left">Difficulty NetHash<br></td>
-                            <td class="text-success">Очень<br></td>
-                            <td class="text-success">41,193.09 Ph/s<br></td>
-                            <td class="text-success">8.81 Th/s</td>
-                            <td class="text-success">141.07 Th/s</td>
-                            <td class="text-success">183.98 Gh/s<br></td>
-                            <td class="text-success">126.31 Gh/s<br></td>
-                            <td class="text-success"> 2.26 Mh/s<br></td>
-                            <td class="text-success">208.93 Th/s<br></td>
+                            <td class="text-success">22 Ph/s<br></td>
+                            <td class="text-success"><span id="btc_nethash"></span> Ph/s</td>
+                            <td class="text-success"><span id="ethc_nethash"></span> Th/s</td>
+                            <td class="text-success"><span id="eth_nethash"></span> Th/s</td>
+                            <td class="text-success"><span id="dash_nethash"></span> Ph/s</td>
+                            <td class="text-success"><span id="ubq_nethash"></span> Gh/s</td>
+                            <td class="text-success"><span id="grin_nethash"></span> Mh/s</td>
+                            <td class="text-success"><span id="ltc_nethash"></span> Th/s</td>
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Difficulty NetHash %<br></td>
-                            <td class="text-success ">Есть<br></td>
-                            <td class="text-success"> 0.0%</td>
-                            <td class="text-success">1.9%</td>
-                            <td class="text-success">0.3%</td>
-                            <td class="text-success">29.8</td>
-                            <td class="text-success">0.2%</td>
-                            <td class="text-success">-0.6%</td>
+                            <td class="text-success ">0.1%<br></td>
                             <td class="text-success">0.0%</td>
+                            <td class="text-success">-0.4%</td>
+                            <td class="text-success">-0.7%</td>
+                            <td class="text-success">27.7%</td>
+                            <td class="text-success">2.9%</td>
+                            <td class="text-success">-0.6%</td>
+                            <td class="text-success">6.8%</td>
                         </tr>
                         <tr class="table-dark-a">
-                            <td class="text-left">Exchange Rate $<br></td>
-                            <td class="text-success table-dark-a">15 000<br></td>
-                            <td class="text-success">3,671.00<br></td>
-                            <td class="text-success">0.00112100</td>
-                            <td class="text-success">0.03338400</td>
-                            <td class="text-success">0.00015038</td>
-                            <td class="text-success">0.00004714</td>
-                            <td class="text-success">0.00140104</td>
-                            <td class="text-success">0.01198740</td>
+                            <td class="text-left">Exchange Rate <br></td>
+                            <td class="text-success table-dark-a">0,0016</td>
+                            <td class="text-success"><span id="btc_Exchange"></span> $ </td>
+                            <td class="text-success"><span id="ethc_Exchange"></span></td>
+                            <td class="text-success"><span id="eth_Exchange"></span></td>
+                            <td class="text-success"><span id="dash_Exchange"></span></td>
+                            <td class="text-success"><span id="ubq_Exchange"></span></td>
+                            <td class="text-success"><span id="grin_Exchange"></span></td>
+                            <td class="text-success"><span id="ltc_Exchange"></span></td>
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Exchange Rate %<br></td>
-                            <td class="text-success table-dark-a">&gt; 15<br></td>
-                            <td class="text-success">-0.3%<br></td>
-                            <td class="text-success">0.1%</td>
-                            <td class="text-success">0.1%</td>
-                            <td class="text-success">-1.2%</td>
-                            <td class="text-success">0.2%</td>
-                            <td class="text-success"> -0.8%</td>
-                            <td class="text-success">0.1%</td>
+                            <td class="text-success table-dark-a">2.5%<br></td>
+                            <td class="text-success">3.0%<br></td>
+                            <td class="text-success">-0.1%</td>
+                            <td class="text-success">0.9%</td>
+                            <td class="text-success">1.5%</td>
+                            <td class="text-success">-1.4%</td>
+                            <td class="text-success"> -1.1%</td>
+                            <td class="text-success">0.7%</td>
                         </tr>
                        <tr class="table-dark-a">
-                            <td class="text-left">Exchange Rate <br></td>
-                            <td class="text-success table-dark-a">&gt; 15<br></td>
-                            <td class="text-success">Bitfinex<br></td>
-                            <td class="text-success">Binance</td>
-                            <td class="text-success">Binance</td>
-                            <td class="text-success">Binance</td>
+                            <td class="text-left">Exchange<br></td>
+                            <td class="text-success table-dark-a"><a class="nav-item"  href="https://ubiqsmart.com" target="_blank"></a> Stex<br></td>
+                            <td class="text-success">Binance<br></td>
+                            <td class="text-success">HitBTC</td>
+                            <td class="text-success">HitBTC</td>
+                            <td class="text-success">HitBTC</td>
                             <td class="text-success">Bittrex</td>
-                            <td class="text-success">TradeOgre</td>
+                            <td class="text-success">Polonex</td>
                             <td class="text-success">HitBTC</td>
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Est.Rewards 24h<br></td>
-                            <td class="text-success ">Есть<br></td>
+                            <td class="text-success ">0.00245<br></td>
                             <td class="text-success">0.00059</td>
                             <td class="text-success">0.2438</td>
                             <td class="text-success">0.0078</td>
                             <td class="text-success">1.7843</td>
                             <td class="text-success">4.1791</td>
-                            <td class="text-success"> 0.1293</td>
+                            <td class="text-success">0.1293</td>
                             <td class="text-success">0.0352</td>
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
                             <td class="text-left rounded-left">Est. Rewards<br></td>
-                            <td class="text-success">Очень<br></td>
+                            <td class="text-success">0.00245<br></td>
                             <td class="text-success">0.00059<br></td>
                             <td class="text-success">0.2393</td>
                             <td class="text-success">0.0081</td>
@@ -175,31 +175,30 @@
                             <td class="text-success">0.0352<br></td>
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
-                            <td class="text-left rounded-left">Market Cap
-                                Volume $<br></td>
-                            <td class="text-success">Очень<br></td>
-                            <td class="text-success">$64,366,440,302<br></td>
-                            <td class="text-success">$445,463,992</td>
-                            <td class="text-success">$12,842,642,423</td>
-                            <td class="text-success">$7,010,816<br></td>
-                            <td class="text-success">$7,371,134<br></td>
-                            <td class="text-success">$0<br></td>
-                            <td class="text-success">$2,659,402,502<br></td>
+                            <td class="text-left rounded-left">Market Cap Vol BTC<br></td>
+                            <td class="text-success">3<br></td>
+                            <td class="text-success"><span id="btc_market_volume"></span></td>
+                            <td class="text-success"><span id="ethc_market_volume"></span></td>
+                            <td class="text-success"><span id="eth_market_volume"></span></td>
+                            <td class="text-success"><span id="dash_market_volume"></span></td>
+                            <td class="text-success"><span id="ubq_market_volume"></span></td>
+                            <td class="text-success"><span id="grin_market_volume"></span></td>
+                            <td class="text-success"><span id="ltc_market_volume"></span></td>
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
-                            <td class="text-left rounded-left">Market Cap Volume BTC<br></td>
-                            <td class="text-success ">Да</td>
-                            <td class="text-success">7,213.01</td>
-                            <td class="text-success">185.02</td>
-                            <td class="text-success">6,504.21</td>
-                            <td class="text-success">2.524.44</td>
-                            <td class="text-success">2.21</td>
-                            <td class="text-success">1.74</td>
-                            <td class="text-success">7,140.68</td>
+                            <td class="text-left rounded-left">Market Cap Volume $<br></td>
+                            <td class="text-success">$90,654<br></td>
+                            <td class="text-success"><span id="btc_market_cap"></span></td>
+                            <td class="text-success"><span id="ethc_market_cap"></span></td>
+                            <td class="text-success"><span id="eth_market_cap"></span></td>
+                            <td class="text-success"><span id="dash_market_cap"></span></td>
+                            <td class="text-success"><span id="ubq_market_cap"></span></td>
+                            <td class="text-success"><span id="grin_market_cap"></span></td>
+                            <td class="text-success"><span id="ltc_market_cap"></span></td>
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left"> Rev. 24h<br></td>
-                            <td class="text-success ">Есть<br></td>
+                            <td class="text-success">0,0016<br></td>
                             <td class="text-success">0.00059</td>
                             <td class="text-success">0.00027</td>
                             <td class="text-success">0.00026</td>
@@ -210,7 +209,7 @@
                         </tr>
                         <tr class="table-dark-a">
                             <td class="text-left rounded-left">Rev. $<br></td>
-                            <td class="text-success">Да</td>
+                            <td class="text-success">$13.5</td>
                             <td class="text-success">$2.16</td>
                             <td class="text-success">$1.00</td>
                             <td class="text-success rounded-right">$0.97</td>
@@ -221,7 +220,7 @@
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Profit<br></td>
-                            <td class="text-success table-dark-a">&gt; 15 000<br></td>
+                            <td class="text-success table-dark-a">$13<br></td>
                             <td class="text-success">$0.55<br></td>
                             <td class="text-success">$0.03</td>
                             <td class="text-success">$0.01</td>
@@ -232,7 +231,7 @@
                         </tr>
                         <tr class="table-dark-a">
                             <td class="text-left">Rev. BTC<br></td>
-                            <td class="text-success ">Есть<br></td>
+                            <td class="text-success ">0,0016<br></td>
                             <td class="text-success">0.00059</td>
                             <td class="text-success">0.00027</td>
                             <td class="text-success">0.00026</td>
@@ -243,7 +242,7 @@
                         </tr>
                         <tr class="bg-dark">
                             <td class="text-left">Profitability 24h<br></td>
-                            <td class="text-success table-dark-a">&gt; 15 000<br></td>
+                            <td class="text-success table-dark-a">150%<br></td>
                             <td class="text-success">100%<br></td>
                             <td class="text-success">104%</td>
                             <td class="text-success">100%</td>
@@ -254,7 +253,7 @@
                         </tr>
                         <tr class="table-dark-a rounded-right rounded-left">
                             <td class="text-left rounded-left">Profitability Current<br></td>
-                            <td class="text-success ">Да</td>
+                            <td class="text-success">220%</td>
                             <td class="text-success">100% </td>
                             <td class="text-success">104%</td>
                             <td class="text-success">100%</td>
@@ -279,11 +278,11 @@
                 <td>Монета</td>
                 <td>Майнер</td>
                 <td>Цена майнера</td>
-                <td>Доходность в месяц в $</td>
-                <td>Доход&nbsp;чистыми <br>в месяц в $</td>
+                <td>Доходность <br>в месяц </td>
+                <td>Доход&nbsp;чистыми <br>в месяц </td>
                 <td>Курс монеты</td>
-                <td>Затраты на электричество<br> в месяц</td>
-                <td>Доходность в день в $</td>
+                <td>Затраты на<br>электричество</td>
+                <td>Доходность <br >в день</td>
                 <td>Окупаемость</td>
             </tr>
             <tr></tr>
@@ -341,7 +340,7 @@
                 <td>40$</td>
                 <td>1,2$</td>
                 <div class="analytics-logo">
-                    <img src="../assets/images/analytics.png" width="40" height="30" alt="Analytic image">
+                    <img src="../assets/images/Minericon.png" width="40" height="40" alt="Analytic image">
                 </div>
                 <td>></td>
             </tr>
