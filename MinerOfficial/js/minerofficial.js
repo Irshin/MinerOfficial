@@ -46,10 +46,7 @@ fetch( 'table.json', {
             alert(infoText);
         }
     });
-
-    $("#news").click(function() {
-        infoalert()
-    });
+    
     $("#node").click(function() {
         infoalert()
     });
