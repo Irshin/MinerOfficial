@@ -47,9 +47,6 @@ fetch( 'table.json', {
         }
     });
 
-    $("#forum").click(function() {
-        infoalert()
-    });
     $("#news").click(function() {
         infoalert()
     });
